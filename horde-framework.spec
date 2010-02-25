@@ -5,7 +5,7 @@
 
 Name:          horde-framework
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       %mkrel 4
 Summary:       Horde core Framework libraries
 License:       LGPL
 Group:         Networking/Mail
@@ -13,6 +13,10 @@ Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(pre): php-pear
+Requires:      horde-dom
+Requires:      horde-form
+Requires:      horde-browser
+Requires:      horde-cli
 Requires:      php-pear-Log
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
