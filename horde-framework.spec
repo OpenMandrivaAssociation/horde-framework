@@ -17,6 +17,7 @@ Requires:      horde-dom
 Requires:      horde-form
 Requires:      horde-browser
 Requires:      horde-cli
+Requires:      php-pear-Services_Weather
 Requires:      php-pear-Log
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
