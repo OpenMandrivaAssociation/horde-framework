@@ -5,7 +5,7 @@
 
 Name:          horde-framework
 Version:       0.0.2
-Release:       %mkrel 4
+Release:       %mkrel 5
 Summary:       Horde core Framework libraries
 License:       LGPL
 Group:         Networking/Mail
@@ -20,7 +20,6 @@ Requires:      horde-cli
 Requires:      php-pear-Log
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
 
 %description
 These classes provide the core functionality of the Horde Application Framework.
