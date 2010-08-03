@@ -5,7 +5,7 @@
 
 Name:          horde-framework
 Version:       0.0.2
-Release:       %mkrel 6
+Release:       %mkrel 7
 Summary:       Horde core Framework libraries
 License:       LGPL
 Group:         Networking/Mail
