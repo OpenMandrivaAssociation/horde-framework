@@ -64,3 +64,39 @@ fi
 %{peardir}/Horde/Registry.php
 %{peardir}/Horde/Text.php
 %dir %{_docdir}/horde
+
+
+%changelog
+* Tue Aug 03 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-7mdv2011.0
++ Revision: 565240
+- Increased release for rebuild
+
+* Mon Mar 01 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-6mdv2010.1
++ Revision: 512824
+- bumped up release
+- added Requires:      php-pear-Services_Weather
+
+* Sun Feb 28 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-5mdv2010.1
++ Revision: 512791
+- bumped up release to get it rebuilt
+
+* Thu Feb 25 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-4mdv2010.1
++ Revision: 510875
+- added Requires:      horde-dom horde-form horde-browser horde-cli
+
+* Thu Feb 25 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2010.1
++ Revision: 510866
+- added Requires:      horde-dom horde-form horde-browser horde-cli
+  bumped up release
+
+* Sun Feb 21 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 509321
+- increade rel version
+- removed requires for a temporary buiild
+
+* Mon Feb 15 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 506027
+- replaced PreReq with Requires (pre)
+- import horde-framework
+
+
